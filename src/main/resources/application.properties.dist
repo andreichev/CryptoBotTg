@@ -1,0 +1,13 @@
+bot.name=CryptoDiffTracker_bot
+bot.token=123
+
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.url=jdbc:postgresql://localhost:5432/crypto_bot
+spring.datasource.username=postgres
+spring.datasource.password=123123
+
+spring.jpa.hibernate.ddl-auto=update
+# spring.jpa.properties.hibernate.enable_lazy_load_no_trans=true
+# spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+spring.jpa.show-sql=true
+spring.sql.init.mode=never
